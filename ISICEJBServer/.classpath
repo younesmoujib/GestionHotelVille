@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/ISICEJBClient/lib/byte-buddy-1.14.7.jar"/>
+	<classpathentry kind="lib" path="/ISICEJBClient/lib/jakarta.persistence-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hp/.m2/repository/net/bytebuddy/byte-buddy/1.14.8/byte-buddy-1.14.8.jar" sourcepath="C:/Users/hp/.m2/repository/net/bytebuddy/byte-buddy/1.14.8/byte-buddy-1.14.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="net.bytebuddy"/>
+			<attribute name="maven.artifactId" value="byte-buddy"/>
+			<attribute name="maven.version" value="1.14.8"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hp/Downloads/wildfly-30.0.0.Final/modules/system/layers/base/jakarta/ejb/api/main/jakarta.ejb-api-4.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/WildFly 27.0 Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.ejb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
